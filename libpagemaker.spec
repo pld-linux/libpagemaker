@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	static_libs	# static library
 #
-%define		apiversion	0.1
 Summary:	Library for importing and converting PageMaker documents
 Summary(pl.UTF-8):	Biblioteka do importowania i konwersji dokumentów PageMakera
 Name:		libpagemaker
