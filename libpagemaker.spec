@@ -1,12 +1,12 @@
 #
 # Conditional build:
 %bcond_without	static_libs	# static library
-#
+
 Summary:	Library for importing and converting PageMaker documents
 Summary(pl.UTF-8):	Biblioteka do importowania i konwersji dokumentów PageMakera
 Name:		libpagemaker
 Version:	0.0.2
-Release:	2
+Release:	3
 License:	MPL v2.0
 Group:		Libraries
 Source0:	http://dev-www.libreoffice.org/src/libpagemaker/%{name}-%{version}.tar.xz
@@ -66,6 +66,9 @@ Statyczna biblioteka libpagemaker.
 Summary:	API documentation for libpagemaker library
 Summary(pl.UTF-8):	Dokumentacja API biblioteki libpagemaker
 Group:		Documentation
+%if "%{_rpmversion}" >= "5"
+BuildArch:	noarch
+%endif
 
 %description apidocs
 API documentation for libpagemaker library.
