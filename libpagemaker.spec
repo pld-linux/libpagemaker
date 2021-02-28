@@ -66,9 +66,7 @@ Statyczna biblioteka libpagemaker.
 Summary:	API documentation for libpagemaker library
 Summary(pl.UTF-8):	Dokumentacja API biblioteki libpagemaker
 Group:		Documentation
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description apidocs
 API documentation for libpagemaker library.
