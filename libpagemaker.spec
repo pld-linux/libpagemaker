@@ -6,7 +6,7 @@ Summary:	Library for importing and converting PageMaker documents
 Summary(pl.UTF-8):	Biblioteka do importowania i konwersji dokumentów PageMakera
 Name:		libpagemaker
 Version:	0.0.4
-Release:	1
+Release:	2
 License:	MPL v2.0
 Group:		Libraries
 Source0:	https://dev-www.libreoffice.org/src/libpagemaker/%{name}-%{version}.tar.xz
